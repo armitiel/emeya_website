@@ -1,0 +1,10 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="developmentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9F8AC1;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#F5E6FF;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+  <polygon points="200,50 250,150 200,250 150,150" fill="url(#developmentGrad)" opacity="0.8"/>
+  <polygon points="200,80 235,150 200,220 165,150" fill="none" stroke="#fff" stroke-width="2" opacity="0.4"/>
+</svg>

@@ -1,0 +1,37 @@
+@import '../config/fonts.ts' layer(base);
+
+/* Font Variables */
+:root {
+  --font-heading: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+/* Font Utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Font Weight Utilities */
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
